@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.success {
+  color: green;
+}
+
+.danger {
+  color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+nav {
+  flex: 1;
+}
+
+img {
+  width: 20vw;
+  object-fit: contain;
+  margin-left: -20vw;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #1da1f2;
+  margin-top: 0;
+  border: solid 5px;
+  border-color: #1da1f2;
+  border-radius: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  padding: 10px;
+}
+
+.feed {
+  flex: 2;
+  border-left: 1px solid #e1e8ed;
+  border-right: 1px solid #e1e8ed;
+  padding: 20px;
+}
+
+#tweetForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  resize: none;
+}
+
+#tweetForm button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.tweets .tweet {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #e1e8ed;
+}
+
+.tweets h3 {
+  color: #333;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
